@@ -17,14 +17,17 @@
 </head>
 
 
-<!-- ввв -->
-<body>
+
+<body>  
 
 
 <!-- header -->
     
-    <header class="header">
-         <div class="header-container container"> 
+
+
+ 
+    <header class="header hide">
+         <div class=" header-container container"> 
           
             <nav class="header-nav">
 
@@ -51,18 +54,17 @@
                     </ul>
 
                 </address>
+
+
+
                     <!--------------------- burger button -->
 
                 <button class="menu-btn" type="button" aria-label="Open menu button">
                     <svg class="menu-btn-icon" width="24" height="24"> <use href="./images/icons.svg#icon-menu"></use> </svg>
                 </button>
 
-
-
-
-
         </div> 
-    </header>
+    </header>  
             
 <!-- header -->
 
@@ -71,23 +73,31 @@
     <main>
 
 <!--  Section 1 -->
-        <section class="first-section"> 
+
+
+
+        <section class="first-section hide"> 
             <div class=" hero-container container">  
                 
             
                 <h1 class="header-main">Effective Solutions <br>
                         for Your Busines</h1> 
-                <!-- <div class="header-div"> -->
+             
+
+                    
                 <button type="button" class="header-btn">Order Service</button>
-                <!-- </div> -->
+                
             </div>
         </section>
 
-<!--  -->
+
 
 
 <!-- section 2 SPDT -->
-        <section class="second-section list" >
+
+
+
+        <section class="second-section list hide" >
             <div class="container">
 
                     <h2 class="visually-hidden"> Next list</h2>
@@ -141,15 +151,13 @@
 
             </div>
         </section>
-        
+       
 
 
 <!--  section 3 Our Team -->
 
 
-
-
-    <section  class="team">
+    <section  class="team hide">
            
         <div class="container">
             
@@ -323,7 +331,7 @@
 
 <!--  section 4 Our Portfolio -->
 
-    <section id="Portfolio"  class="portfolio">
+    <section id="Portfolio"  class="portfolio hide">
         <div class="container">
 
             <h2 class="portfolio-title"> Our Portfolio </h2>  
@@ -428,15 +436,14 @@
         </div>
     </section>
 
-    </main>
+    </main> 
 
 
 <!--  footer-->
-  
+  <!-- change class socials ul class -->
 
-    <footer class="footer">
-        <div class="footer-container">
-
+    <footer class="footer hide">
+        <div class="footer-container container">
 
             <div class="footer-right">
           <a href="#" class="footer-logo link" >Web<span class="footer-logo-studio">Studio</span></a>
@@ -449,7 +456,7 @@
       
             <div class="social-footer">
                 <p class="footer-social"> Social media</p>
-                <ul class="socials-items-footer">
+                <ul class="socials">
                     <li class="socials-elem-footer">
                         <a href="#" class="socials-link-footer">
                             <svg class="socials-icon-footer" width="24" height="24">
@@ -500,6 +507,84 @@
         </div>
     
     </footer>
+
+
+
+
+
+
+<!-- footer mobile version ------>
+
+<!-- not uderstend class webfooter -->
+
+<footer class="web-footer">
+<div class="web-footer-container container">
+        <div class="web-footer-top">
+            <a href="" class="web-footer-logo"><span>Web</span> Studio</a>
+            <p class="web-footer-desc">Increase the flow of customers and sales for your 
+                business with digital marketing & growth solutions.</p>
+        </div>
+   
+
+    <div class="web-footer-mid">
+
+        <p class="web-footer-caption">Social media</p>
+
+        <ul class="socials">
+
+            <li class="socials">
+                <a  class="socials-link" href="#" >
+                    <svg class="socials-icon-footer" width="24" height="24">
+                        <use href="./images/icons.svg#icon-instagram"></use>  
+                    </svg>
+                </a>
+            </li>
+
+            <li class="socials">
+                <a class="socials-link" href="#" >
+                    <svg class="socials-icon-footer" width="24" height="24">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+
+            <li class="socials">
+                <a  class="socials-link" href="#" >
+                    <svg class="socials-icon-footer" width="24" height="24">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+
+            <li class="socials">
+                <a  class="socials-link" href="#" >
+                    <svg class="socials-icon-footer" width="24" height="24">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                     </svg>
+                </a>
+            </li>    
+
+
+        </ul>
+    </div>
+
+
+
+
+    <div class="web-footer-bottom">
+        <p class="web-footer-caption">Subscribe</p>
+        <from class="web-footer-form">
+            <label class="web-footer-label">
+                <input class="web-footer-input" type="email"placeholder="E-mail">
+            </label>
+            <button class="web-footer-btn" type="submit">Subscribe</button>
+        </from>
+    </div> 
+    
+    
+</div>
+</footer>
+
 
 
 
@@ -603,7 +688,7 @@
         </form>
     </div>
     </div>
-    
+     
 
 <!-- mobile MENU___________________--  -->
     <div class="mobile-menu">
@@ -626,51 +711,48 @@
         </li>
     </ul>
 
-
-    <ul class="mobile-menu-contacts">
-        <li class="mobile-menu-item">
-            <a class="mobile-menu-contact accent" href="tel:+110001111111" > +11 (000) 111-11-11</a>
-        </li>
-        <li class="mobile-menu-item">
-            <a class="mobile-menu-contact" href="mailto:info@devstudio.com" > info@devstudio.com</a>
-        </li>
-    </ul>
-
-
-    <ul class="mobile-menu-socials socials">
-        <li class="socials-elem-footer">
-            <a href="#" class="socials-link-footer">
-                <svg class="socials-icon-footer" width="24" height="24">
-                    <use href="./images/icons.svg#icon-instagram"></use>  
-                </svg>
-            </a>
-        </li>
-        <li class="socials-elem-footer">
-            <a href="#" class="socials-link-footer">
-                <svg class="socials-icon-footer" width="24" height="24">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-            </a>
-        </li>
-        <li class="socials-elem-footer">
-            <a href="#" class="socials-link-footer">
-                <svg class="socials-icon-footer" width="24" height="24">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-            </a>
-        </li>
-        <li class="socials-elem-footer">
-            <a href="#" class="socials-link-footer">
-                <svg class="socials-icon-footer" width="24" height="24">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                 </svg>
-            </a>
-        </li>
-    
-    </ul> 
-
+    <div class="mobile-menu-wrapper">
+        <ul class="mobile-menu-contacts">
+            <li class="mobile-menu-item">
+                <a class="mobile-menu-contact accent" href="tel:+110001111111" > +11 (000) 111-11-11</a>
+            </li>
+            <li class="mobile-menu-item">
+                <a class="mobile-menu-contact" href="mailto:info@devstudio.com" > info@devstudio.com</a>
+            </li>
+        </ul>
+        <ul class="mobile-menu-socials socials">
+            <li class="socials-elem-footer">
+                <a href="#" class="socials-link-footer">
+                    <svg class="socials-icon-footer" width="24" height="24">
+                        <use href="./images/icons.svg#icon-instagram"></use>  
+                    </svg>
+                </a>
+            </li>
+            <li class="socials-elem-footer">
+                <a href="#" class="socials-link-footer">
+                    <svg class="socials-icon-footer" width="24" height="24">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="socials-elem-footer">
+                <a href="#" class="socials-link-footer">
+                    <svg class="socials-icon-footer" width="24" height="24">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="socials-elem-footer">
+                <a href="#" class="socials-link-footer">
+                    <svg class="socials-icon-footer" width="24" height="24">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+        
+            </ul> 
     </div>
-
+</div>
 
 
 
@@ -678,3 +760,43 @@
 </body>
 
 </html>
+
+
+<!-- --------------------------------Example retino display -->
+
+<!-- 
+<picture> -->
+    <!-- Desktop -->
+
+    <!-- <source
+      media="(min-width: 1200px)"
+      srcset="
+        ./images/bestsellers/img-1_desk@1x.jpg 1x,
+        ./images/bestsellers/img-1_desk@2x.jpg 2x
+      " /> -->
+
+    <!-- Tablet -->
+
+    <!-- <source
+      media="(min-width: 768px)"
+      srcset="
+        ./images/bestsellers/img-1_tab@1x.jpg 1x,
+        ./images/bestsellers/img-1_tab@2x.jpg 2x
+      " /> -->
+
+    <!-- Mobile -->
+<!--     
+    <source
+      media="(max-width: 767px)"
+      srcset="
+        ./images/bestsellers/img-1_mob@1x.jpg 1x,
+        ./images/bestsellers/img-1_mob@2x.jpg 2x
+      " />
+    <img
+      class="bestsellers-pic"
+      src="./images/bestsellers/img-1.jpg"
+      alt="Chocolate with nuts"
+      width="368"
+      height="464"
+      loading="lazy" />
+  </picture> -->
