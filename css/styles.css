@@ -1890,13 +1890,13 @@ text-transform: capitalize;
   }
 }
 
-
-@media only screen and (min-width: 768px) and (max-width: 1199.98px) {
+/* 
+@media only screen and (min-width: 768px)  {
     .web-footer-container{
          padding: 0 108px; 
     
   }
-}
+} */
 
 
 @media only screen and (min-width: 768px) {
