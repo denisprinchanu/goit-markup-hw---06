@@ -2093,6 +2093,16 @@ letter-spacing: 0.48px;
 
 
 
+@media screen and (max-width: 1158px){
+  .contacts-li {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    padding: 0;
+  }
+
+}
+
 
 
 
@@ -2223,16 +2233,6 @@ letter-spacing: 0.48px;
     }
 
 
-
-}
-
-@media screen and (max-width: 1158px){
-  .contacts-li {
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    padding: 0;
-  }
 
 }
 
